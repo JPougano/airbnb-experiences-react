@@ -11,7 +11,7 @@ export default function Body(){
                 <img className="card--photo" src={Swimmer} alt="Swimmer photo"/>
                 <div className="card--rating">
                     <img className="card--rating-star" src={Star} alt="Star Icon"/>
-                    <p className="card--text">5.0 <span className="card--rating-details">(6)•USA</span></p>
+                    <p className="card--text">5.0 <span  className="card--rating-details">(6)•USA</span></p>
                 </div>
                 <p className="card--text">Life lessons with Katie Zaferes</p>
                 <p className="card--text">
