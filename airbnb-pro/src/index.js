@@ -1,12 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App"
 
 const root = document.getElementById("root");
 
-function Renderize(){
-    return (
-        <h1>Start</h1>
-    )
-}
 
-ReactDOM.render(< Renderize/>, root)
+ReactDOM.render(< App/>, root)
