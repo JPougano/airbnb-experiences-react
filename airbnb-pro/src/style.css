@@ -1,7 +1,3 @@
-:root{
-
-}
-
 *{
     padding: 0;
     margin: 0;
@@ -16,7 +12,7 @@ body{
     background-color: #FFFFFF;
     margin: 2rem auto;
     width: 550px;
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px;
 }
 
 /* Navbar section */
@@ -48,6 +44,13 @@ body{
 /* Card section */
 
 .card--container{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: space-between ;
+}
+
+.card--body{
     display: flex;
     flex-direction: row;
     padding: 0 0 2rem 2rem;
@@ -92,8 +95,9 @@ body{
     margin-right: .3rem;
 }
 
-.card--rating-details{
+.card--count-review, .card--country{
     color: #918E9B;
+    font-size: 12px;
 }
 
 .card--cost-destaq{
