@@ -45,14 +45,14 @@ body{
 
 .card--container{
     display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    justify-content: space-between ;
+    flex-wrap: nowrap;
+    overflow: scroll;
 }
 
 .card--body{
-    display: flex;
-    flex-direction: row;
+    flex: 0 0 auto;         
+    display: flex;          
+    flex-direction: column; 
     padding: 0 0 2rem 2rem;
 }
 

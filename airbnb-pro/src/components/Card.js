@@ -12,7 +12,7 @@ export default function Body(props){
                     <img className="card--rating-star" src={Star} alt="Star Icon"/>
                     <span className="card--text">{props.rating}</span>
                     <span className="card--count-review">({props.countReview})• </span>
-                    <span className="card--country">USA</span>
+                    <span className="card--country">{props.location}</span>
                 </div>
                 <p className="card--text">{props.title}</p>
                 <p className="card--text">

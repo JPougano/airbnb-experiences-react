@@ -1,5 +1,5 @@
 import React from "react";
-import Grid from "../images/photo-grid.png"
+import Grid from "../imgs/photo-grid.png"
 
 
 export default function Body(){

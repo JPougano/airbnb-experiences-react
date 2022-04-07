@@ -13,6 +13,7 @@ export default function App(){
             title = {a.title}
             price = {a.price}
             rating = {a.stats.rating}
+            location={a.location}
             countReview = {a.stats.rating}
         />
     ))
